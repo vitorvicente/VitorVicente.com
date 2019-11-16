@@ -53,7 +53,7 @@
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/home-bg.jpeg')">
+  <header class="masthead" style="background-image: url('img/about-bg.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -68,6 +68,70 @@
   </header>
 
   <!-- Main Content -->
+  <div class="row">
+    <!-- Nav -->
+    <div class="col-md-2">
+      <nav class="nav flex-column grey lighten-4 py-4 font-weight-bold">
+	    <h3>About</h3>
+        <a class="nav-link active" href="#">About Me</a>
+        <a class="nav-link" href="cv.html">CV</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+    </div>
+	<!-- Actual Content -->
+    <section class="col-md-8">
+
+      <h2 class="h1-responsive font-weight-bold text-center my-4">CONTACT ME</h2>
+      <p class="text-center w-responsive mx-auto mb-5">If you have inquiries, questions, or are looking for a business partner fill out the form bellow to contact me</p>
+      
+	  <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+	  
+        <div class="row">
+          <div class="col-md-6">
+            <div class="md-form mb-0">
+			  <label for="name" class="">Name</label>
+              <input type="text" id="name" name="name" class="form-control">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="md-form mb-0">
+			  <label for="email" class="">Email</label>
+              <input type="text" id="email" name="email" class="form-control">
+            </div>
+          </div>
+        </div>
+		
+        <div class="row">
+          <div class="col-md-12">
+            <div class="md-form mb-0">
+			  <label for="subject" class="">Subject</label>
+              <input type="text" id="subject" name="subject" class="form-control">
+            </div>
+          </div>
+        </div>
+		
+        <div class="row">
+          <div class="col-md-12">
+            <div class="md-form">
+			  <label for="message">Message</label>
+              <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+            </div>
+          </div>
+        </div>
+		
+      </form>
+	  
+	  <br>
+	  
+      <div class="text-center text-md-left">
+        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+      </div>
+      <div class="status"></div>
+	  
+    </section>
+  </div>
+  
+  <br>
   
   
   <!-- Footer -->
