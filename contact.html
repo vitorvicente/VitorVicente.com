@@ -84,7 +84,7 @@
       <h2 class="h1-responsive font-weight-bold text-center my-4">CONTACT ME</h2>
       <p class="text-center w-responsive mx-auto mb-5">If you have inquiries, questions, or are looking for a business partner fill out the form bellow to contact me</p>
       
-	  <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+	  <form id="contact-form" name="contact-form" action="./php/mail.php" method="POST">
 	  
         <div class="row">
           <div class="col-md-6">
@@ -124,7 +124,7 @@
 	  <br>
 	  
       <div class="text-center text-md-left">
-        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+        <a class="btn btn-primary" onclick="validateForm()">Send</a>
       </div>
       <div class="status"></div>
 	  
@@ -177,6 +177,7 @@
   </section>
 
   <!-- Bootstrap core JavaScript -->
+  <script src="./js/contact.js"></script>
   <script src="./jquery/jquery.js"></script>
   <script src="./bootstrap/js/bootstrap.bundle.js"></script>
 
