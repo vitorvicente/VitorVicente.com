@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Varela&display=swap');
+
 body {
 	font-size:20px;
 	color:#212529;
@@ -209,3 +211,31 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
   background-color: #1a252f;
 }
 
+.home-image-left {
+	width: 450px;
+	height:250px;
+	padding-right: 20px;
+	float: left;
+}
+
+.home-image-right {
+	width: 450px;
+	height:250px;
+	padding-left: 20px;
+	float: right;
+}
+
+.home-text h3 {
+	font-weight:800;
+	font-family: 'Varela', sans-serif;
+}
+
+.home-text h5 {
+	font-weight:800;
+	color: #D3D3D3;
+	font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif
+}
+
+.btn-home {
+	border-radius: 7px;
+}
