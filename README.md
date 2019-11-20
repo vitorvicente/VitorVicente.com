@@ -5,12 +5,20 @@
 
 ###### Day 1
 - Initial File Upload
+- License & README
+- Home Page raw HTML
+- About Page raw HTML
+- General Update to spacer HTML tag
+- Contact Page raw HTML
+- Attempt at Contact Form JS
+- File Organization
 
 ###### Day 2
-- Raw HTML for the Contact & CV Page
+- Projects Page raw HTML
+- CV Page raw HTML
 
 ###### Day 3
-- Raw HTML for the Projects & About Page
+- Secondary Pages raw HTML
 
 ###### Day 4
 - Code cleanup
@@ -18,3 +26,4 @@
 
 ###### Day 5
 - Initial CSS for Home Page
+- Several README Updates
