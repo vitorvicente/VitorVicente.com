@@ -27,3 +27,7 @@
 ###### Day 5
 - Initial CSS for Home Page
 - Several README Updates
+
+###### Day 6
+- Add .htaccess code to delete .html extension
+- Add .htaccess code to force https://
