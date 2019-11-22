@@ -225,9 +225,15 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 	float: right;
 }
 
-.home-text h3 {
-	font-weight:800;
-	font-family: 'Varela', sans-serif;
+.home-text-main h3 {
+	font-weight: 500;
+	font-family:Lora,'Times New Roman',serif
+}
+
+.home-text-main p {
+	line-height:1.5;
+	font-size: 18px;
+	color: #808080;
 }
 
 .home-text h5 {
@@ -238,4 +244,8 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 
 .btn-home {
 	border-radius: 7px;
+}
+
+.side-menu h5 {
+	
 }
