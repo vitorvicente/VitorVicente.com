@@ -31,3 +31,7 @@
 ###### Day 6
 - Add .htaccess code to delete .html extension
 - Add .htaccess code to force https://
+
+###### Day 7
+- Final CSS for Home Page
+- Initial CSS for About Me Page
