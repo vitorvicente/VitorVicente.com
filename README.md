@@ -35,3 +35,7 @@
 ###### Day 7
 - Final CSS for Home Page
 - Initial CSS for About Me Page
+
+###### Day 7
+- Final CSS for About Page
+- Final CSS for the side menu
