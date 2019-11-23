@@ -258,8 +258,7 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 	color: #808080;
 }
 
-.side-menu a:active {
-	font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
-	font-size: 18px;
-	color: #111111;
+.side-menu>a:hover {
+	color:#404040;
+	text-decoration:none
 }
