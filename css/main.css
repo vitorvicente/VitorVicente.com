@@ -233,7 +233,7 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 .home-text-main p {
 	line-height:1.5;
 	font-size: 18px;
-	color: #808080;
+	color: #585858;
 }
 
 .home-text h5 {
@@ -261,4 +261,65 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 .side-menu>a:hover {
 	color:#404040;
 	text-decoration:none
+}
+.side-menu-active a{
+	color:#585858;
+	font-weight: 600;
+	text-decoration:none
+}
+
+.about-text p {
+	line-height:1.2;
+	font-size: 17px;
+	color: #585858;
+}
+
+.about-text h3 {
+	font-weight: 600;
+	color: #404040;
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-family:'pen Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.about-text li {
+	line-height:2;
+	font-size: 17px;
+	color: #585858;
+}
+
+.quotation{
+  font-size: 30px;
+  //margin: 0 auto;
+  quotes: "\201C""\201D""\2018""\2019";
+  padding: 10px 20px;
+  line-height: 1.4;
+}
+
+.quotation:before {
+  content: open-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: -10px;
+  position: relative;
+  top: 30px;
+  color: #ccc;
+  font-size: 3em;
+}
+.quotation::after {
+  content: close-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: 10px;
+  position: relative;
+  top: 35px;
+  color: #ccc;
+  font-size: 3em;
+}
+.quote-footer footer {
+  text-align: center;
+  font-size: 1.5em;
+  font-style: italic;
 }
