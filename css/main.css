@@ -270,21 +270,21 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 
 .about-text p {
 	line-height:1.2;
-	font-size: 17px;
+	font-size: 15px;
 	color: #585858;
 }
 
 .about-text h3 {
-	font-weight: 600;
+	font-weight: 500;
 	color: #404040;
-	font-size: 20px;
+	font-size: 25px;
 	letter-spacing: 1px;
 	font-family:'pen Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
 .about-text li {
 	line-height:2;
-	font-size: 17px;
+	font-size: 15px;
 	color: #585858;
 }
 
