@@ -39,3 +39,8 @@
 ###### Day 8
 - Final CSS for About Page
 - Final CSS for the side menu
+
+###### Day 9
+- Fixes for About Page
+- Final CSS for CV Page
+- Final CSS for Contact Page

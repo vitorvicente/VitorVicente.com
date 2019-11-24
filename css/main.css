@@ -173,7 +173,6 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
  }
 }
 
-
 .btn {
 	font-size:14px;
 	font-weight:800;
@@ -272,6 +271,14 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 	line-height:1.2;
 	font-size: 15px;
 	color: #585858;
+}
+
+.about-text h2 {
+	font-weight: 500;
+	color: #404040;
+	font-size: 40px;
+	letter-spacing: 1px;
+	font-family:'pen Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
 .about-text h3 {
