@@ -44,3 +44,8 @@
 - Fixes for About Page
 - Final CSS for CV Page
 - Final CSS for Contact Page
+
+###### Day 10
+- Final CSS for Privacy Policy Page
+- Final CSS for Extended Work Page
+- Contact Form V2.0
