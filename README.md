@@ -48,4 +48,7 @@
 ###### Day 10
 - Final CSS for Privacy Policy Page
 - Final CSS for Extended Work Page
-- Contact Form V2.0
+- Contact Form PHP V2.0
+- NavBar Fixes
+- Download CV Button
+- Footer Links
