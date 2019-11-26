@@ -3,6 +3,18 @@
 
 ##### This is the first part of a 100 day coding challenge focused on web-development
 
+##### To-Do
+- Collapse secondary menu
+- Fix index page sizes
+- Add Spacer bellow secondary Menu
+- Remove Extra Projects
+- Add cookies popup
+- Replace links with re-directs
+- Stresstest mobile version
+- Upload onto a linux machine
+- Debug & Launch
+
+
 ###### Day 1
 - Initial File Upload
 - License & README
