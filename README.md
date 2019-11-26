@@ -57,4 +57,6 @@
 - CSS Fixes for the header/Navbar
 - Final CSS for Projects Page
 - First Project Included!
+- File Cleanup
+- Second Project
 
