@@ -52,3 +52,9 @@
 - NavBar Fixes
 - Download CV Button
 - Footer Links
+
+###### Day 11
+- CSS Fixes for the header/Navbar
+- Final CSS for Projects Page
+- First Project Included!
+
