@@ -263,6 +263,10 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 	color: #1790b8
 }
 
+.side-menu-global {
+	padding: 20px;
+}
+
 .side-menu a {
 	font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 	font-size: 18px;
@@ -283,9 +287,13 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 	line-height:1.2;
 	font-size: 15px;
 	color: #585858;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .about-text h2 {
+	padding-left: 20px;
+	padding-right: 20px;
 	font-weight: 500;
 	color: #404040;
 	font-size: 40px;
@@ -294,6 +302,8 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 }
 
 .about-text h3 {
+	padding-left: 20px;
+	padding-right: 20px;
 	font-weight: 500;
 	color: #404040;
 	font-size: 25px;

@@ -5,12 +5,8 @@
 
 ##### To-Do
 - Collapse secondary menu
-- Fix index page sizes
-- Add Spacer bellow secondary Menu
 - Remove Extra Projects
 - Add cookies popup
-- Replace links with re-directs
-- Stresstest mobile version
 - Upload onto a linux machine
 - Debug & Launch
 
@@ -71,4 +67,10 @@
 - First Project Included!
 - File Cleanup
 - Second Project
+
+###### Day 12
+- Mobile Version Stresstest
+- Fixed padding on About Page/CV Page/Contact Page & Index Page
+- Padded Sidemenu
+- Replace links to redirect links
 
