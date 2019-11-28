@@ -264,7 +264,8 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 }
 
 .side-menu-global {
-	padding: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .side-menu a {
@@ -281,6 +282,10 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 	color:#585858;
 	font-weight: 600;
 	text-decoration:none
+}
+.about-text hr {
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .about-text p {
@@ -311,10 +316,25 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 	font-family:'pen Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
+.about-text h5 {
+	padding-left: 20px;
+	padding-right: 20px;
+	font-weight: 500;
+	color: #404040;
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-family:'pen Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
 .about-text li {
 	line-height:2;
 	font-size: 15px;
 	color: #585858;
+}
+
+.contact-form {
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .quotation{
