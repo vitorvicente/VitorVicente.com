@@ -5,8 +5,6 @@
 
 ##### To-Do
 - Collapse secondary menu
-- Remove Extra Projects
-- Add cookies popup
 - Upload onto a linux machine
 - Debug & Launch
 
@@ -69,8 +67,13 @@
 - Second Project
 
 ###### Day 12
-- Mobile Version Stresstest
+- Mobile Version Stresstest 1.0
 - Fixed padding on About Page/CV Page/Contact Page & Index Page
 - Padded Sidemenu
 - Replace links to redirect links
 
+###### Day 13
+- Mobile Version Stresstest 2.0
+- CSS Fixes
+- Removal of Extra Projects
+- Cookie PopUp implementation
