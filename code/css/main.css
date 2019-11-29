@@ -284,6 +284,29 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 	font-weight: 600;
 	text-decoration:none
 }
+
+.about-text .side-menu-small h5 {
+	font-weight: 501;
+	font-family: Lora,'Times New Roman',serif;
+	color: #1790b8
+}
+
+.about-text .side-menu-small a {
+	font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	color: #808080;
+}
+
+.about-text .side-menu-small>a:hover {
+	color:#404040;
+	text-decoration:none
+}
+.about-text .side-menu-small-active a{
+	color:#585858;
+	font-weight: 600;
+	text-decoration:none
+}
+
 .about-text hr {
 	padding-left: 10px;
 	padding-right: 10px;

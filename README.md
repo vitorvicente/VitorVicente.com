@@ -77,3 +77,8 @@
 - CSS Fixes
 - Removal of Extra Projects
 - Cookie PopUp implementation
+
+###### Day 14
+- Mobile Version Stresstest 2.0
+- Final Fixes
+- Implementation of a different submenu for mobile versions
