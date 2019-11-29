@@ -4,7 +4,6 @@
 ##### This is the first part of a 100 day coding challenge focused on web-development
 
 ##### To-Do
-- Collapse secondary menu
 - Upload onto a linux machine
 - Debug & Launch
 
