@@ -81,3 +81,6 @@
 - Mobile Version Stresstest 2.0
 - Final Fixes
 - Implementation of a different submenu for mobile versions
+
+###### Day 15
+- Preparations for multi-language website
