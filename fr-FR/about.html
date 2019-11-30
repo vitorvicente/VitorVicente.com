@@ -13,12 +13,12 @@
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-  <!-- Custom fonts for this template -->
-  <link href="./code/css/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <!-- Custom fonts -->
+  <link href="../code/css/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
-  <!-- Custom styles for this template -->
-  <link href="./code/css/main.css" rel="stylesheet">
+  <!-- Custom stylesheets -->
+  <link href="../code/css/main.css" rel="stylesheet">
 
 </head>
 
@@ -27,7 +27,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="index.html">VITOR VICENTE</a>
+      <a class="navbar-brand" href="index">VITOR VICENTE</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -49,7 +49,7 @@
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('./files/imgs/about-bg.jpg')">
+  <header class="masthead" style="background-image: url('../files/imgs/about-bg.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -83,7 +83,7 @@
 	<div class="col-md-2 d-lg-none">
 	</div>
 	<!-- Actual Content -->
-    <section class="col-md-5 about-text contact-form">
+    <div class="col-md-5 about-text">
 	  <div class="d-lg-none">
 	    <nav class="nav flex-column side-menu-small text-center mx-auto">
 	      <h5>About</h5>
@@ -94,76 +94,67 @@
 		
 		<br>
 	  </div>
-
-      <h2 class="text-center">CONTACT ME</h2>
-      <p class="text-center">If you have inquiries, questions, or are looking for a business partner fill out the form bellow to contact me</p>
-      
-	  <form action="./code/php/mail.php" method="POST" name="contact-form">
+	
+      <h3>ABOUT ME</h3>
+	  <p>I’m a Portuguese teenager with a passion for gaming, aviation and tech. I’m a huge fanboy and movie geek, love everything from Star Wars to Game of Thrones. I love gaming and have recently developed a passion for aviation.</p>
+	  <p>I’m 18, studying Computer Science at Boston University. Graduated high school in Portugal, came to the US to study because of the culture and opportunities presented to me here.</p>
+	  <p>I’ve been working alongside amateur gaming communities as a free-lancer for around 5 years now, working on every edge of the industry, from development to HR.</p>
+      <br>
 	  
-        <div class="row">
-          <div class="col-md-6">
-            <div class="md-form mb-0">
-			  <label for="name" class="">Name</label>
-			  <fieldset>
-                <input type="text" placeholder="Your Name" name="name" class="form-control" required autofocus>
-              </fieldset>
-			</div>
-          </div>
-          <div class="col-md-6">
-            <div class="md-form mb-0">
-			  <label for="email" class="">Email</label>
-			  <fieldset>
-                <input type="email" placeholder="Your Email" name="email" class="form-control" required>
-              </fieldset>
-			</div>
-          </div>
-        </div>
-		
-        <div class="row">
-          <div class="col-md-12">
-            <div class="md-form mb-0">
-			  <label for="subject" class="">Subject</label>
-              <fieldset>
-			    <input type="text" placeholder="Message Subject" name="subject" class="form-control" required>
-              </fieldset>
-			</div>
-          </div>
-        </div>
-		
-        <div class="row">
-          <div class="col-md-12">
-            <div class="md-form">
-			  <label for="message">Message</label>
-                <textarea type="text" placeholder="Your Message..." name="message" rows="2" class="form-control md-textarea" required></textarea>
-			</div>
-          </div>
-        </div>
-		
-		<br>
-		
-		<div class="row">
-		<div class="text-center col-md-6">
-		  <br>
-		  <input type="submit" class="btn btn-info btn-home" value="Send">
-		  <br> 
-		</div>
-		<div class="text-center col-md-6">
-		  <br>
-		  <input type="reset" class="btn btn-info btn-home" value="Clear Form">
-		  <br>
-		</div>
-		</div>
-        <div class="status"></div>
-      </form>
-	  
+	  <h3>MY MISSION</h3>
+	  <p>For as cheesy as this might sound, I have it as my mission in life to help all those around me in whatever way I can, for the only thing truly worth living for is love, love of what we do, love of those who surround us, love for life.</p>
+	  <p>As such I hope to one day be able to pursue a career in the tech industry that allows me to make a greater impact on the world, and all those who live in it.</p>
+	  <p>Bellow is what I consider to be my favor quote, and the words I hope one day, I can live by.</p>
 	  <br>
 	  
-    </section>
+	  <hr class="about-text">
+	  <br>
+	  <blockquote>
+	    <p class="quotation text-center"> Don’t ask yourself what the world needs. Ask yourself what makes you come alive, and then go do that. Because what the world needs is people who come alive.</p>
+        <div class="quote-footer">
+		  <footer>— Howard Thurman</footer>
+		</div>
+      </blockquote> 
+	  <br>
+	  <hr class="about-text">
+	  <br>
+	  <br>
+	  
+	  <h3>RANDOM FACTS ABOUT ME</h3>
+	  <br>
+	</div>
+  </div>
+  <div class="row">
+  	<div class="col-md-4">
+	  <br>
+	</div>
+	<div class="col-md-2 about-text">
+	  <ul>
+        <li>Favorite show: Game of Thrones</li>
+        <li>Favorite movie: Lord of The Rings</li>
+        <li>Favorite food: Pizza</li>
+		<li>Favorite drink: Whiskey</li>
+		<li>Favorite video game: Minecraft</li>
+		<li>Favorite Actor: RDJ</li>
+		<li>Favorite color: Forest Green</li>
+	  </ul>
+	</div>
+	<div class="col-md-3 about-text">
+      <ul>	
+	    <li>I love Iron Man</li>
+		<li>I know way too much Star Wars and Lord of the Rings lore for my own good</li>
+		<li>I got my first working position at 14</li>
+		<li>I grew up in Lisbon, but now I live in Boston</li>
+		<li>My love for aviation started a little after I turned 18</li>
+		<li>I love mountain biking</li>
+      </ul>
+	</div>
   </div>
   
   <br>
   <br>
-  
+  <br>
+  <br>
   
   <!-- Footer -->
   <footer class="footer text-center">
@@ -207,7 +198,6 @@
       <small>Copyright &copy; Vitor Vicente 2019</small>
     </div>
   </section>
-
 
   <!-- Bootstrap core JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
