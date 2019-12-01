@@ -84,3 +84,7 @@
 
 ###### Day 15
 - Preparations for multi-language website
+
+###### Day 16
+- General Content Fixes
+- PT-EN translation Draft #1
