@@ -88,3 +88,11 @@
 ###### Day 16
 - General Content Fixes
 - PT-EN translation Draft #1
+
+###### Day 17 - 19
+- Working on another project
+
+###### Day 20
+- General fixes & Organization
+- Contact Page fixes
+- Contact Form PhP Fixes
