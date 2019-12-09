@@ -1,8 +1,8 @@
 // --- Variables --- //
 var purecookieTitle = "";
-var purecookieDesc = "<p>This website utilizes cookies to improve your navigation experience, you can read our privacy policy by clicking the link bellow. </p><p> By continuing to navigate the website you agree to the use of cookies under the terms and rules of the EU</p>";
-var purecookieLink = '<a href="privacy-policy" target="_blank"><p>Read More</p></a>';
-var purecookieButton = "Understood";
+var purecookieDesc = "<p>Este Website utiliza cookies para melhorar a sua experiência de navegação. </p><p> Ao continuar a navegar, está a concordar com a utilização das cookies debaixo dos termos da União Europeia.</p>";
+var purecookieLink = '';
+var purecookieButton = "Concordo";
 // ---        --- //
 
 

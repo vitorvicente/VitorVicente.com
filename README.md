@@ -96,3 +96,9 @@
 - General fixes & Organization
 - Contact Page fixes
 - Contact Form PhP Fixes
+
+###### Day 21 - 23
+- Working on another project
+
+###### Day 24
+- Implementation of pt-PT translation files
