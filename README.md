@@ -102,3 +102,7 @@
 
 ###### Day 24
 - Implementation of pt-PT translation files
+
+###### Day 25
+- Implementation of fr-FR translation files
+- Bug Fixes
