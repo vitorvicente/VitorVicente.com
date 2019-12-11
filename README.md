@@ -106,3 +106,7 @@
 ###### Day 25
 - Implementation of fr-FR translation files
 - Bug Fixes
+
+###### Day 26
+- Implementation of es-ES translation files
+- Bug Fixes
