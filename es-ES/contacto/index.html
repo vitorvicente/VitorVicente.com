@@ -27,7 +27,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="../../en-US">VITOR VICENTE</a>
+      <a class="navbar-brand" href="../../es-ES">VITOR VICENTE</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -35,13 +35,13 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="../../en-US">Home</a>
+            <a class="nav-link" href="../../es-ES">INICIO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../about">About</a>
+            <a class="nav-link" href="../sobre/">Sobre</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../projects">Projects</a>
+            <a class="nav-link" href="../proyectos/">PROYECTOS</a>
           </li>
         </ul>
       </div>
@@ -49,7 +49,7 @@
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('../../files/imgs/projects-bg.jpg')">
+  <header class="masthead" style="background-image: url('../../files/imgs/about-bg.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -64,52 +64,105 @@
   </header>
 
   <!-- Main Content -->
-  
+  <br>
   <div class="row">
-  
     <div class="col-md-2">
 	</div>
-    
-	<div class="col-md-4">
+
+    <!-- Nav -->
+    <div class="col-md-2 side-menu-global d-none d-lg-block">
+      <nav class="nav flex-column side-menu ml-auto">
+	    <h5>Sobre</h5>
+        <a class="side-menu" href="../sobre/">SOBRE MI</a>
+        <a class="side-menu" href="../cv/">CV</a>
+        <div class="side-menu-active"><a class="side-menu" href="#">CONTACTO</a></div>
+      </nav>
 	  
-	  <!-- Project 1-->
-      <div class="card about-text text-center">
-        <img class="card-img-top" src="../../files/imgs/projects-website.png" alt="Project">
-        <div class="card-body">
-          <h3 class="card-title">Personal Website</h3>
-          <p class="card-text">This website was coded by me, as a first dive into WebDevelopment!</p>
-          <a href="https://github.com/vitorvicente/VitorVicente.com" class="btn btn-dark">See Repository</a>
-        </div>
-      </div>
-	
+	  <br>
+    </div>
+	<div class="col-md-2 d-lg-none">
 	</div>
-	
-	<div class="col-md-4">
-	
-	  <!-- Project 2-->
-      <div class="card about-text text-center">
-        <img class="card-img-top" src="../../files/imgs/projects-xcraft.jpg" alt="Project">
-        <div class="card-body">
-          <h3 class="card-title">XCore Plugin</h3>
-          <p class="card-text">Minecraft Spigot based plugin, with the aim to provide all needed core features for public multiplayer servers.</p>
-          <a href="https://github.com/vitorvicente/XCore" class="btn btn-dark">See Repository</a>
-        </div>
-      </div>
-	
+	<!-- Actual Content -->
+    <section class="col-md-5 about-text contact-form">
+    <div class="d-lg-none">
+	    <nav class="nav flex-column side-menu-small text-center mx-auto">
+	      <h5>Sobre</h5>
+          <a class="side-menu-small" href="../sobre">SOBRE MI</a>
+          <a class="side-menu-small" href="../cv">CV</a>
+          <div class="side-menu-small-active"><a class="side-menu-small" href="#">CONTACTO</a></div>
+        </nav>
+		
+		<br>
 	</div>
-	
+
+      <h2 class="text-center">CONTÁCTAME</h2>
+      <p class="text-center">Si tiene preguntas, o está buscando un socio comercial, complete el siguiente formulario para contactarme.</p>
+      
+	  <form action="../../code/php/mailes.php" method="POST" name="contact-form">
+	  
+        <div class="row">
+          <div class="col-md-6">
+            <div class="md-form mb-0">
+			  <label for="name" class="">Nombre</label>
+			  <fieldset>
+                <input type="text" placeholder="Su Nombre" name="name" class="form-control" required autofocus>
+              </fieldset>
+			</div>
+          </div>
+          <div class="col-md-6">
+            <div class="md-form mb-0">
+			  <label for="email" class="">Email</label>
+			  <fieldset>
+                <input type="email" placeholder="Su Email" name="email" class="form-control" required>
+              </fieldset>
+			</div>
+          </div>
+        </div>
+		
+        <div class="row">
+          <div class="col-md-12">
+            <div class="md-form mb-0">
+			  <label for="subject" class="">Asunto</label>
+              <fieldset>
+			    <input type="text" placeholder="Asunto del Mensaje" name="subject" class="form-control" required>
+              </fieldset>
+			</div>
+          </div>
+        </div>
+		
+        <div class="row">
+          <div class="col-md-12">
+            <div class="md-form">
+			  <label for="message">Mensaje</label>
+                <textarea type="text" placeholder="Su Mensaje..." name="message" rows="2" class="form-control md-textarea" required></textarea>
+			</div>
+          </div>
+        </div>
+		
+		<br>
+		
+		<div class="row">
+		<div class="text-center col-md-6">
+		  <br>
+		  <input type="submit" class="btn btn-info btn-home" value="Enviar">
+		  <br> 
+		</div>
+		<div class="text-center col-md-6">
+		  <br>
+		  <input type="reset" class="btn btn-info btn-home" value="Borrar el formulario">
+		  <br>
+		</div>
+		</div>
+        <div class="status"></div>
+      </form>
+	  
+	  <br>
+	  
+    </section>
   </div>
   
-  <div class="row">
-    <br>
-  </div>
-  
-  
-  <div class="row">
-    <br>
-	<br>
-	<br>
-  </div>
+  <br>
+  <br>
   
   
   <!-- Footer -->
@@ -124,7 +177,7 @@
 
         <!-- Footer Social Icons -->
         <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Social Hub</h4>
+          <h4 class="text-uppercase mb-4">Centro Social</h4>
             <!--Linked In-->
             <span class="fa-stack fa-lg">
               <a class="li-ic mr-3" role="button" href="https://in.vtr.pt"><i class="fab fa-linkedin" style="color: #ffffff;"></i></a>
@@ -154,6 +207,7 @@
       <small>Copyright &copy; Vitor Vicente 2019</small>
     </div>
   </section>
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

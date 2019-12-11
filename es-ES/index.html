@@ -13,13 +13,13 @@
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-  <!-- Custom fonts for this template -->
-  <link href="../../code/css/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <!-- Custom fonts -->
+  <link href="../code/css/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
-  <!-- Custom styles for this template -->
-  <link href="../../code/css/main.css" rel="stylesheet">
-
+  <!-- Custom CSS -->
+  <link href="../code/css/main.css" rel="stylesheet">
+  
 </head>
 
 <body>
@@ -27,7 +27,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="../../en-US">VITOR VICENTE</a>
+      <a class="navbar-brand" href="#">VITOR VICENTE</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -35,13 +35,13 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="../../en-US">Home</a>
+            <a class="nav-link" href="#">INICIO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../about">About</a>
+            <a class="nav-link" href="./sobre">SOBRE</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../projects">Projects</a>
+            <a class="nav-link" href="./proyectos">PROYECTOS</a>
           </li>
         </ul>
       </div>
@@ -49,7 +49,7 @@
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('../../files/imgs/projects-bg.jpg')">
+  <header class="masthead" style="background-image: url('../files/imgs/home-bg.jpeg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -62,55 +62,81 @@
       </div>
     </div>
   </header>
-
+  
+  <br>
+  <br>
+  
   <!-- Main Content -->
-  
+  <!-- Who Am I Section -->
   <div class="row">
-  
-    <div class="col-md-2">
-	</div>
-    
-	<div class="col-md-4">
-	  
-	  <!-- Project 1-->
-      <div class="card about-text text-center">
-        <img class="card-img-top" src="../../files/imgs/projects-website.png" alt="Project">
-        <div class="card-body">
-          <h3 class="card-title">Personal Website</h3>
-          <p class="card-text">This website was coded by me, as a first dive into WebDevelopment!</p>
-          <a href="https://github.com/vitorvicente/VitorVicente.com" class="btn btn-dark">See Repository</a>
-        </div>
-      </div>
-	
+    <div class="col-md-4">
 	</div>
 	
 	<div class="col-md-4">
-	
-	  <!-- Project 2-->
-      <div class="card about-text text-center">
-        <img class="card-img-top" src="../../files/imgs/projects-xcraft.jpg" alt="Project">
-        <div class="card-body">
-          <h3 class="card-title">XCore Plugin</h3>
-          <p class="card-text">Minecraft Spigot based plugin, with the aim to provide all needed core features for public multiplayer servers.</p>
-          <a href="https://github.com/vitorvicente/XCore" class="btn btn-dark">See Repository</a>
-        </div>
+	  <div class="container text-center home-text-main">
+        <h3>¿Quién soy?</h3>
+        <p>Mi nombre es Vitor, pero voy por Victor en países de habla inglesa, o grandmen123 en línea. Soy un adolescente portugués con pasión por la tecnología, los juegos y la aviación. He trabajado en la industria del juego durante 5 años, principalmente en comunidades de Minecraft u otras comunidades cerradas relacionadas con juegos.</p>
+        <a href="./sobre"><button type="button" class="btn btn-info btn-home">Aprende más</button></a>
       </div>
-	
 	</div>
 	
+	<div class="col-md-4">
+	</div>
   </div>
   
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  
+  <!-- Projects Section -->
   <div class="row">
-    <br>
+    <div class="col-md-3">
+	</div>
+	
+	<div class="col-md-6">
+	  <div class="container text-center home-text">
+        <img src="../files/imgs/projects.jpg" class="home-image-left" alt="Projects Image">
+        <h5>PROYECTOS</h5>
+        <p>Después de haber trabajado para varias redes durante los últimos 5 años y de haber ingresado recientemente a la universidad, he emprendido algunos proyectos tanto en la industria del juego como en otros lugares.</p>
+        <a href="./proyectos"><button type="button" class="btn btn-info btn-home">Aprenda más</button></a>
+      </div>
+	</div>
+	
+	<div class="col-md-3">
+	</div>
   </div>
   
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
   
+  <!-- Blog Section -->
   <div class="row">
-    <br>
-	<br>
-	<br>
+    <div class="col-md-3">
+	</div>
+	
+	<div class="col-md-6">
+    <div class="container text-center home-text">
+	  <img src="../files/imgs/blog.jpg" class="home-image-right" alt="Blog Image">
+	  <h5>BLOG</h5>
+      <p>De vez en cuando escribo publicaciones sobre cosas que encuentro en la vida, ya sean películas y música, o pensamientos filosóficos.</p>
+      <button type="button" class="btn btn-info btn-home">Aprenda más</button>
+	</div>
+	</div>
+	
+	<div class="col-md-3">
+	</div>
   </div>
   
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
   
   <!-- Footer -->
   <footer class="footer text-center">
@@ -124,7 +150,7 @@
 
         <!-- Footer Social Icons -->
         <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Social Hub</h4>
+          <h4 class="text-uppercase mb-4">Centro Social</h4>
             <!--Linked In-->
             <span class="fa-stack fa-lg">
               <a class="li-ic mr-3" role="button" href="https://in.vtr.pt"><i class="fab fa-linkedin" style="color: #ffffff;"></i></a>
@@ -147,7 +173,6 @@
     </div>
   </footer>
 
-
   <!-- Copyright Section -->
   <section class="copyright py-4 text-center text-white">
     <div class="container">
@@ -155,6 +180,9 @@
     </div>
   </section>
 
+
+  <!-- Scripts -->
+  <script src="../code/js/cookieses.js"></script>
   <!-- Bootstrap core JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
