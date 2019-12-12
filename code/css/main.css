@@ -237,6 +237,32 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 	float: right;
 }
 
+.language-headers h1 {
+	font-size:50px;
+	font-weight:400;
+	color: #0085a1;
+	font-family:Lora,'Times New Roman',serif;
+}
+
+.language-headers h5 {
+	font-size:20px;
+	font-weight:600;
+	color: #7d7d7d;
+	font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.language-links a {
+	font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	color: #808080;
+	text-decoration: none;
+}
+
+.language-links>a:focus,a:hover {
+	color:#0085a1;
+	font-size: 20px;
+}
+
 .home-text-main h3 {
 	font-weight: 500;
 	font-family:Lora,'Times New Roman',serif
@@ -279,6 +305,7 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 	color:#404040;
 	text-decoration:none
 }
+
 .side-menu-active a{
 	color:#585858;
 	font-weight: 600;
