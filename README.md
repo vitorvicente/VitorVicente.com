@@ -110,3 +110,8 @@
 ###### Day 26
 - Implementation of es-ES translation files
 - Bug Fixes
+
+###### Day 27
+- Implementation of language choosing page
+- Language codes updates
+- Bug fixes
