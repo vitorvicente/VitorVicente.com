@@ -115,3 +115,6 @@
 - Implementation of language choosing page
 - Language codes updates
 - Bug fixes
+
+###### Day 28
+- Implementation of redirect code 1.0
