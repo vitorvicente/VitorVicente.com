@@ -20,26 +20,9 @@
   <!-- Custom CSS -->
   <link href="./code/css/main.css" rel="stylesheet">
   
-  <script>
-    if((geoplugin_countryCode() == 'US') || (geoplugin_countryCode() == 'AG') || (geoplugin_countryCode() == 'AU') || (geoplugin_countryCode() == 'BS') || (geoplugin_countryCode() == 'BB') || (geoplugin_countryCode() == 'BZ') || (geoplugin_countryCode() == 'CA') || (geoplugin_countryCode() == 'DM') || (geoplugin_countryCode() == 'GD') || (geoplugin_countryCode() == 'GY') || (geoplugin_countryCode() == 'GB') || (geoplugin_countryCode() == 'GI') || (geoplugin_countryCode() == 'GU') || (geoplugin_countryCode() == 'HK') || (geoplugin_countryCode() == 'IE') || (geoplugin_countryCode() == 'IO') || (geoplugin_countryCode() == 'KN') || (geoplugin_countryCode() == 'NZ') || (geoplugin_countryCode() == 'JM') || (geoplugin_countryCode() == 'TT') || (geoplugin_countryCode() == 'UM') || (geoplugin_countryCode() == 'ZA')){
-	  //Redirect to en-US
-	  window.location.replace("https://vitorvicente.com/en-US/");
-	} else if ((geoplugin_countryCode() == 'PT') || (geoplugin_countryCode() == 'BR') || (geoplugin_countryCode() == 'AO') || (geoplugin_countryCode() == 'MZ') || (geoplugin_countryCode() == 'GW') || (geoplugin_countryCode() == 'CV') || (geoplugin_countryCode() == 'ST') || (geoplugin_countryCode() == 'TL') || (geoplugin_countryCode() == 'GQ') || (geoplugin_countryCode() == 'MO')){
-	  //Redirect to pt-PT
-	  window.location.replace("https://vitorvicente.com/pt-PT/");
-	} else if ((geoplugin_countryCode() == 'FR') || (geoplugin_countryCode() == 'BE') || (geoplugin_countryCode() == 'LU') || (geoplugin_countryCode() == 'MC') || (geoplugin_countryCode() == 'CH') || (geoplugin_countryCode() == 'DZ') || (geoplugin_countryCode() == 'BJ') || (geoplugin_countryCode() == 'BF') || (geoplugin_countryCode() == 'BI') || (geoplugin_countryCode() == 'CM') || (geoplugin_countryCode() == 'CF') || (geoplugin_countryCode() == 'TD') || (geoplugin_countryCode() == 'KM') || (geoplugin_countryCode() == 'CD') || (geoplugin_countryCode() == 'CG') || (geoplugin_countryCode() == 'CI') || (geoplugin_countryCode() == 'DJ') || (geoplugin_countryCode() == 'GQ') || (geoplugin_countryCode() == 'GA') || (geoplugin_countryCode() == 'GN') || (geoplugin_countryCode() == 'MG') || (geoplugin_countryCode() == 'ML') || (geoplugin_countryCode() == 'MU') || (geoplugin_countryCode() == 'MA') || (geoplugin_countryCode() == 'NE') || (geoplugin_countryCode() == 'RE') || (geoplugin_countryCode() == 'RW') || (geoplugin_countryCode() == 'SN') || (geoplugin_countryCode() == 'SC') || (geoplugin_countryCode() == 'TG') || (geoplugin_countryCode() == 'TN') || (geoplugin_countryCode() == 'GF') || (geoplugin_countryCode() == 'GP') || (geoplugin_countryCode() == 'HT') || (geoplugin_countryCode() == 'MQ') || (geoplugin_countryCode() == 'PF') || (geoplugin_countryCode() == 'NC') || (geoplugin_countryCode() == 'VU')){
-	  //Redicrtect to fr-FR
-	  window.location.replace("https://vitorvicente.com/fr-FR/");
-	} else if ((geoplugin_countryCode() == 'ES') || (geoplugin_countryCode() == 'AD') || (geoplugin_countryCode() == 'AR') || (geoplugin_countryCode() == 'BO') || (geoplugin_countryCode() == 'CL') || (geoplugin_countryCode() == 'CO') || (geoplugin_countryCode() == 'CR') || (geoplugin_countryCode() == 'CU') || (geoplugin_countryCode() == 'DO') || (geoplugin_countryCode() == 'EC') || (geoplugin_countryCode() == 'SV') || (geoplugin_countryCode() == 'GT') || (geoplugin_countryCode() == 'HN') || (geoplugin_countryCode() == 'MX') || (geoplugin_countryCode() == 'NI') || (geoplugin_countryCode() == 'PA') || (geoplugin_countryCode() == 'PY') || (geoplugin_countryCode() == 'PE') || (geoplugin_countryCode() == 'PR') || (geoplugin_countryCode() == 'UY') || (geoplugin_countryCode() == 'VE')){
-	  //Redirect to es-ES
-	  window.location.replace("https://vitorvicente.com/es-ES/");
-	}
-  </script>
-  <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
-  
 </head>
 
-<body>
+<body onload="reDirect()">
 
   <div class="row">
 	<br>
@@ -80,6 +63,25 @@
 	<br>
   </div>
 
+
+  <script>
+    function reDirect() {
+      if((geoplugin_countryCode() == 'US') || (geoplugin_countryCode() == 'AG') || (geoplugin_countryCode() == 'AU') || (geoplugin_countryCode() == 'BS') || (geoplugin_countryCode() == 'BB') || (geoplugin_countryCode() == 'BZ') || (geoplugin_countryCode() == 'CA') || (geoplugin_countryCode() == 'DM') || (geoplugin_countryCode() == 'GD') || (geoplugin_countryCode() == 'GY') || (geoplugin_countryCode() == 'GB') || (geoplugin_countryCode() == 'GI') || (geoplugin_countryCode() == 'GU') || (geoplugin_countryCode() == 'HK') || (geoplugin_countryCode() == 'IE') || (geoplugin_countryCode() == 'IO') || (geoplugin_countryCode() == 'KN') || (geoplugin_countryCode() == 'NZ') || (geoplugin_countryCode() == 'JM') || (geoplugin_countryCode() == 'TT') || (geoplugin_countryCode() == 'UM') || (geoplugin_countryCode() == 'ZA')){
+	    //Redirect to en-US
+	    window.location.replace("https://vitorvicente.com/en-US/");
+	  } else if ((geoplugin_countryCode() == 'PT') || (geoplugin_countryCode() == 'BR') || (geoplugin_countryCode() == 'AO') || (geoplugin_countryCode() == 'MZ') || (geoplugin_countryCode() == 'GW') || (geoplugin_countryCode() == 'CV') || (geoplugin_countryCode() == 'ST') || (geoplugin_countryCode() == 'TL') || (geoplugin_countryCode() == 'GQ') || (geoplugin_countryCode() == 'MO')){
+	    //Redirect to pt-PT
+	    window.location.replace("https://vitorvicente.com/pt-PT/");
+	  } else if ((geoplugin_countryCode() == 'FR') || (geoplugin_countryCode() == 'BE') || (geoplugin_countryCode() == 'LU') || (geoplugin_countryCode() == 'MC') || (geoplugin_countryCode() == 'CH') || (geoplugin_countryCode() == 'DZ') || (geoplugin_countryCode() == 'BJ') || (geoplugin_countryCode() == 'BF') || (geoplugin_countryCode() == 'BI') || (geoplugin_countryCode() == 'CM') || (geoplugin_countryCode() == 'CF') || (geoplugin_countryCode() == 'TD') || (geoplugin_countryCode() == 'KM') || (geoplugin_countryCode() == 'CD') || (geoplugin_countryCode() == 'CG') || (geoplugin_countryCode() == 'CI') || (geoplugin_countryCode() == 'DJ') || (geoplugin_countryCode() == 'GQ') || (geoplugin_countryCode() == 'GA') || (geoplugin_countryCode() == 'GN') || (geoplugin_countryCode() == 'MG') || (geoplugin_countryCode() == 'ML') || (geoplugin_countryCode() == 'MU') || (geoplugin_countryCode() == 'MA') || (geoplugin_countryCode() == 'NE') || (geoplugin_countryCode() == 'RE') || (geoplugin_countryCode() == 'RW') || (geoplugin_countryCode() == 'SN') || (geoplugin_countryCode() == 'SC') || (geoplugin_countryCode() == 'TG') || (geoplugin_countryCode() == 'TN') || (geoplugin_countryCode() == 'GF') || (geoplugin_countryCode() == 'GP') || (geoplugin_countryCode() == 'HT') || (geoplugin_countryCode() == 'MQ') || (geoplugin_countryCode() == 'PF') || (geoplugin_countryCode() == 'NC') || (geoplugin_countryCode() == 'VU')){
+	    //Redicrtect to fr-FR
+	    window.location.replace("https://vitorvicente.com/fr-FR/");
+	  } else if ((geoplugin_countryCode() == 'ES') || (geoplugin_countryCode() == 'AD') || (geoplugin_countryCode() == 'AR') || (geoplugin_countryCode() == 'BO') || (geoplugin_countryCode() == 'CL') || (geoplugin_countryCode() == 'CO') || (geoplugin_countryCode() == 'CR') || (geoplugin_countryCode() == 'CU') || (geoplugin_countryCode() == 'DO') || (geoplugin_countryCode() == 'EC') || (geoplugin_countryCode() == 'SV') || (geoplugin_countryCode() == 'GT') || (geoplugin_countryCode() == 'HN') || (geoplugin_countryCode() == 'MX') || (geoplugin_countryCode() == 'NI') || (geoplugin_countryCode() == 'PA') || (geoplugin_countryCode() == 'PY') || (geoplugin_countryCode() == 'PE') || (geoplugin_countryCode() == 'PR') || (geoplugin_countryCode() == 'UY') || (geoplugin_countryCode() == 'VE')){
+	    //Redirect to es-ES
+	    window.location.replace("https://vitorvicente.com/es-ES/");
+	  }
+	}
+  </script>
+  <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
 
   <!-- Bootstrap core JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
