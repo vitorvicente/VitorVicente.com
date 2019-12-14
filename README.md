@@ -118,3 +118,7 @@
 
 ###### Day 28
 - Implementation of redirect code 1.0
+
+###### Day 29
+- Redirect code fixes
+- 404 Error page
