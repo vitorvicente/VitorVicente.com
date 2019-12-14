@@ -251,6 +251,14 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 	font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
+.language-headers p {
+	font-size:18px;
+	font-weight:400;
+	color: #7d7d7d;
+	font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+	line-height: 5px;
+}
+
 .language-links a {
 	font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 	font-size: 18px;
