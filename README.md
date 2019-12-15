@@ -3,10 +3,6 @@
 
 ##### This is the first part of a 100 day coding challenge focused on web-development
 
-##### To-Do
-- Upload onto a linux machine
-- Debug & Launch
-
 
 ###### Day 1
 - Initial File Upload
@@ -122,3 +118,10 @@
 ###### Day 29
 - Redirect code fixes
 - 404 Error page
+
+###### Day 30
+- Favicon code & image
+- Language codes update
+
+###### Day 31+
+- Working on other projects
