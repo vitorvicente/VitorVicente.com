@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Personal Website">
+  <meta name="author" content="Vitor Vicente">
+
+  <title>Vitor Vicente</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- Custom fonts for this template -->
+  <link href="../../code/css/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="../../code/css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="../../fr">VITOR VICENTE</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../../fr">Page d’accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../a-propos-de/">à propos de</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../projets/">projets</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('../../files/imgs/about-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1></h1>
+            <span class="subheading"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <br>
+  <div class="row">
+    <div class="col-md-2">
+	</div>
+
+    <!-- Nav -->
+    <div class="col-md-2 side-menu-global d-none d-lg-block">
+      <nav class="nav flex-column side-menu ml-auto">
+	    <h5>À Propos De</h5>
+        <a class="side-menu" href="../a-propos-de/">À PROPOS DE MOI</a>
+        <a class="side-menu" href="../cv/">CV</a>
+        <div class="side-menu-active"><a class="side-menu" href="#">CONTACTER</a></div>
+      </nav>
+	  
+	  <br>
+    </div>
+	<div class="col-md-2 d-lg-none">
+	</div>
+	<!-- Actual Content -->
+    <section class="col-md-5 about-text contact-form">
+    <div class="d-lg-none">
+	    <nav class="nav flex-column side-menu-small text-center mx-auto">
+	      <h5>À Propos De</h5>
+          <a class="side-menu-small" href="../a-propos-de">À PROPOS DE MOI</a>
+          <a class="side-menu-small" href="../cv">CV</a>
+          <div class="side-menu-small-active"><a class="side-menu-small" href="#">CONTACTER</a></div>
+        </nav>
+		
+		<br>
+	</div>
+
+      <h2 class="text-center">CONTACTEZ MOI</h2>
+      <p class="text-center">Si vous avez des questions ou cherchez un partenaire commercial, remplissez le formulaire ci-dessous pour me contacter.</p>
+      
+	  <form action="../../code/php/mailfr.php" method="POST" name="contact-form">
+	  
+        <div class="row">
+          <div class="col-md-6">
+            <div class="md-form mb-0">
+			  <label for="name" class="">Prénom</label>
+			  <fieldset>
+                <input type="text" placeholder="Votre nom" name="name" class="form-control" required autofocus>
+              </fieldset>
+			</div>
+          </div>
+          <div class="col-md-6">
+            <div class="md-form mb-0">
+			  <label for="email" class="">Email</label>
+			  <fieldset>
+                <input type="email" placeholder="Votre email" name="email" class="form-control" required>
+              </fieldset>
+			</div>
+          </div>
+        </div>
+		
+        <div class="row">
+          <div class="col-md-12">
+            <div class="md-form mb-0">
+			  <label for="subject" class="">Objet</label>
+              <fieldset>
+			    <input type="text" placeholder="Objet du message" name="subject" class="form-control" required>
+              </fieldset>
+			</div>
+          </div>
+        </div>
+		
+        <div class="row">
+          <div class="col-md-12">
+            <div class="md-form">
+			  <label for="message">Message</label>
+                <textarea type="text" placeholder="Votre message..." name="message" rows="2" class="form-control md-textarea" required></textarea>
+			</div>
+          </div>
+        </div>
+		
+		<br>
+		
+		<div class="row">
+		<div class="text-center col-md-6">
+		  <br>
+		  <input type="submit" class="btn btn-info btn-home" value="Envoyer">
+		  <br> 
+		</div>
+		<div class="text-center col-md-6">
+		  <br>
+		  <input type="reset" class="btn btn-info btn-home" value="Forme claire">
+		  <br>
+		</div>
+		</div>
+        <div class="status"></div>
+      </form>
+	  
+	  <br>
+	  
+    </section>
+  </div>
+  
+  <br>
+  <br>
+  
+  
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <div class="row">
+
+        <!-- Spacer Left -->
+        <div class="col-lg-4 mb-5 mb-lg-0">
+            <br></p>
+        </div>
+
+        <!-- Footer Social Icons -->
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Centre Social</h4>
+            <!--Linked In-->
+            <span class="fa-stack fa-lg">
+              <a class="li-ic mr-3" role="button" href="https://in.vtr.pt"><i class="fab fa-linkedin" style="color: #ffffff;"></i></a>
+            </span>
+			<!--Github-->
+			<span class="fa-stack fa-lg">
+              <a class="li-ic mr-3" role="button" href="https://git.vtr.pt"><i class="fab fa-github" style="color: #ffffff;"></i></a>
+            </span>
+			<!--Facebook-->
+			<span class="fa-stack fa-lg">
+              <a class="li-ic mr-3" role="button" href="https://fbp.vtr.pt"><i class="fab fa-facebook" style="color: #ffffff;"></i></a>
+            </span>
+			<!--Instagram-->
+			<span class="fa-stack fa-lg">
+              <a class="li-ic mr-3" role="button" href="https://insta.vtr.pt"><i class="fab fa-instagram" style="color: #ffffff;"></i></a>
+            </span>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Copyright Section -->
+  <section class="copyright py-4 text-center text-white">
+    <div class="container">
+      <small>Copyright &copy; Vitor Vicente 2019</small>
+    </div>
+  </section>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
