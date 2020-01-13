@@ -128,3 +128,7 @@
 
 ###### Day 58
 - Main Blog Page HTML & CSS
+
+###### Day 59
+- Topics Page HTML & CSS
+- BUG FIXES GLORE
