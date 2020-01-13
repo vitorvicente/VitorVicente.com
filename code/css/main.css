@@ -288,6 +288,53 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 	font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif
 }
 
+.blog-text-main h3 {
+	font-weight: 600;
+	font-family:Lora,'Times New Roman',serif;
+	color: #1790b8
+}
+
+.blog-text-main p {
+	line-height:1.5;
+	font-size: 18px;
+	color: #585858;
+}
+
+.blog-text h3 {
+	font-weight: 500;
+	font-family:Lora,'Times New Roman',serif
+}
+
+.blog-text p {
+	line-height:1.5;
+	font-size: 18px;
+	color: #585858;
+}
+
+.blog-text h5 {
+	font-weight:800;
+	color: #D3D3D3;
+	font-size: 15px;
+	font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif
+}
+
+.blog-text img {
+	width: 450px;
+	height: 250px;
+}
+
+.blog-text button {
+	border-radius: 7px;
+}
+
+.blog-button {
+	padding-top: 100px;
+}
+
+.blog-button button {
+	border-radius: 7px;
+}
+
 .btn-home {
 	border-radius: 7px;
 }
