@@ -28,7 +28,8 @@ a {
 }
 
 a:focus,a:hover {
-	color:#0085a1
+	color:#0085a1;
+	text-decoration: none;
 }
 
 #mainNav {
@@ -561,8 +562,10 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 
 .topics-boxes .card-title a {
   color: #111;
+  font-size: 25px;
 }
 
 .topics-boxes .card:hover .card-title a {
   color: #007bff;
+  font-size: 25px;
 }
