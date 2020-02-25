@@ -11,5 +11,5 @@ $mailheader = "From: $email";
 
 
 mail($recipient, $subject, $formcontent, $mailheader);
-header("Location: ../../pt-PT/contacto/")
+header("Location: ../../pt/contacto/")
 ?>

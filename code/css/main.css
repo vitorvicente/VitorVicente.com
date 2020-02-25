@@ -1,6 +1,39 @@
 @import url('https://fonts.googleapis.com/css?family=Varela&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:700|Poppins:700');
 
+.boxes .card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 0 10px 40px 10px;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.boxes .card:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+.boxes .card-title a {
+  color: #111;
+  font-size: 30px;
+  font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  text-decoration: none;
+  font-weight: 400!important;
+}
+
+.boxes .card:hover .card-title a {
+  color: #007bff;
+}
+
+.boxes .card .card-body .btn {
+	font-size: 15px;
+}
+.boxes .card .card-body .btn:hover {
+	font-size: 15px;
+}
+
 body {
 	width: 100%;
 	font-size:20px;
@@ -32,7 +65,8 @@ a {
 }
 
 a:focus,a:hover {
-	color:#0085a1
+	color:#0085a1;
+	text-decoration: none;
 }
 
 #mainNav {
