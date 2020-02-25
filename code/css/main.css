@@ -50,10 +50,6 @@ p {
 	margin:30px 0
 }
 
-p a {
-	text-decoration:underline
-}
-
 h1,h2,h3,h4,h5,h6 {
 	font-weight:800;
 	font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif
@@ -235,6 +231,16 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 	border-color:#00657b!important
 }
 
+.btn-dark:active,.btn-dark:focus,.btn-dark:hover {
+	font-size:14px;
+	font-weight:800;
+	padding:15px 25px;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	border-radius:0;
+	font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif
+}
+
 .btn-lg {
 	font-size:16px;
 	padding:25px 35px
@@ -320,6 +326,53 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 	font-weight:800;
 	color: #D3D3D3;
 	font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif
+}
+
+.blog-text-main h3 {
+	font-weight: 600;
+	font-family:Lora,'Times New Roman',serif;
+	color: #1790b8
+}
+
+.blog-text-main p {
+	line-height:1.5;
+	font-size: 18px;
+	color: #585858;
+}
+
+.blog-text h3 {
+	font-weight: 500;
+	font-family:Lora,'Times New Roman',serif
+}
+
+.blog-text p {
+	line-height:1.5;
+	font-size: 18px;
+	color: #585858;
+}
+
+.blog-text h5 {
+	font-weight:800;
+	color: #D3D3D3;
+	font-size: 15px;
+	font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif
+}
+
+.blog-text img {
+	width: 450px;
+	height: 250px;
+}
+
+.blog-text button {
+	border-radius: 7px;
+}
+
+.blog-button {
+	padding-top: 100px;
+}
+
+.blog-button button {
+	border-radius: 7px;
 }
 
 .btn-home {
@@ -524,4 +577,28 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 		left: 0px !important;
 		width: 100%  !important;
 	}
+}
+
+.topics-boxes .card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 0 10px 40px 10px;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.topics-boxes .card:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+.topics-boxes .card-title a {
+  color: #111;
+  font-size: 25px;
+}
+
+.topics-boxes .card:hover .card-title a {
+  color: #007bff;
+  font-size: 25px;
 }

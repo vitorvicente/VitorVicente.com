@@ -123,5 +123,12 @@
 - Favicon code & image
 - Language codes update
 
-###### Day 31+
+###### Day 31 - 57
 - Working on other projects
+
+###### Day 58
+- Main Blog Page HTML & CSS
+
+###### Day 59
+- Topics Page HTML & CSS
+- BUG FIXES GLORE
