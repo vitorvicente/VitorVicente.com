@@ -1,134 +1,49 @@
 # VitorVicente.com
-## Public Personal Website
 
-##### This is the first part of a 100 day coding challenge focused on web-development
+This website serves as my main personal Webpage where you can follow my projects, see my CV, and contact me directly.
+
+It's currently a simple HTML & CSS website that uses Bootstrap as well as GeoPlugin.net's API to re-direct the user to the section of the website based on their location/language. It was developed as the first part of an 100 day coding challenge for web development, and will, in the future, be upgraded to a React.JS WebApp, with cookie support for the language choice.
+
+It's made up of several pages/sections which are listed in the Site-Map bellow.
+
+### Site-Map
+* EN
+  * Home
+  * About
+  * Contact
+  * CV
+  * Extended Work
+  * Projects
+  * Privacy Policy
+* ES
+  * Home
+  * About
+  * Contact
+  * CV
+  * Extended Work
+  * Projects
+* PT
+  * Home
+  * About
+  * Contact
+  * CV
+  * Extended Work
+  * Projects
+* FR
+  * Home
+  * About
+  * Contact
+  * CV
+  * Extended Work
+  * Projects
+* 404 Error Page
+* Language Choosing Page
 
 
-###### Day 1
-- Initial File Upload
-- License & README
-- Home Page raw HTML
-- About Page raw HTML
-- General Update to spacer HTML tag
-- Contact Page raw HTML
-- Attempt at Contact Form JS
-- File Organization
+### Running & Bug Finding
+If you want to run the website to test for bugs or just mess around, all you have to do is download it and open the HTML files with your prefered browser. To run the PHP code you will need to install PHP, to do so head over to https://php.net and download the package for your OS.
 
-###### Day 2
-- Projects Page raw HTML
-- CV Page raw HTML
+If you want to look at the language choice page, make sure do remove the onLoad="redirect()" tag on the body section. Please be warned that if you run this page without disabling this you will be re-directed to the live website.
 
-###### Day 3
-- Secondary Pages raw HTML
+Feel free to report bugs at the bug page here on GitHub and I'll address them!
 
-###### Day 4
-- Code cleanup
-- Removal of local Bootstrap
-
-###### Day 5
-- Initial CSS for Home Page
-- Several README Updates
-
-###### Day 6
-- Add .htaccess code to delete .html extension
-- Add .htaccess code to force https://
-
-###### Day 7
-- Final CSS for Home Page
-- Initial CSS for About Me Page
-
-###### Day 8
-- Final CSS for About Page
-- Final CSS for the side menu
-
-###### Day 9
-- Fixes for About Page
-- Final CSS for CV Page
-- Final CSS for Contact Page
-
-###### Day 10
-- Final CSS for Privacy Policy Page
-- Final CSS for Extended Work Page
-- Contact Form PHP V2.0
-- NavBar Fixes
-- Download CV Button
-- Footer Links
-
-###### Day 11
-- CSS Fixes for the header/Navbar
-- Final CSS for Projects Page
-- First Project Included!
-- File Cleanup
-- Second Project
-
-###### Day 12
-- Mobile Version Stresstest 1.0
-- Fixed padding on About Page/CV Page/Contact Page & Index Page
-- Padded Sidemenu
-- Replace links to redirect links
-
-###### Day 13
-- Mobile Version Stresstest 2.0
-- CSS Fixes
-- Removal of Extra Projects
-- Cookie PopUp implementation
-
-###### Day 14
-- Mobile Version Stresstest 2.0
-- Final Fixes
-- Implementation of a different submenu for mobile versions
-
-###### Day 15
-- Preparations for multi-language website
-
-###### Day 16
-- General Content Fixes
-- PT-EN translation Draft #1
-
-###### Day 17 - 19
-- Working on another project
-
-###### Day 20
-- General fixes & Organization
-- Contact Page fixes
-- Contact Form PhP Fixes
-
-###### Day 21 - 23
-- Working on another project
-
-###### Day 24
-- Implementation of pt-PT translation files
-
-###### Day 25
-- Implementation of fr-FR translation files
-- Bug Fixes
-
-###### Day 26
-- Implementation of es-ES translation files
-- Bug Fixes
-
-###### Day 27
-- Implementation of language choosing page
-- Language codes updates
-- Bug fixes
-
-###### Day 28
-- Implementation of redirect code 1.0
-
-###### Day 29
-- Redirect code fixes
-- 404 Error page
-
-###### Day 30
-- Favicon code & image
-- Language codes update
-
-###### Day 31 - 57
-- Working on other projects
-
-###### Day 58
-- Main Blog Page HTML & CSS
-
-###### Day 59
-- Topics Page HTML & CSS
-- BUG FIXES GLORE
