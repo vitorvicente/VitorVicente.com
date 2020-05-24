@@ -483,6 +483,10 @@ header.masthead .page-heading .subheading,header.masthead .site-heading .subhead
 	padding-right: 20px;
 }
 
+.contact-form .contacts {
+	padding-top: 50px;
+}
+
 .quotation{
   font-size: 30px;
   //margin: 0 auto;
