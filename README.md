@@ -38,10 +38,12 @@ It's made up of several pages/sections which are listed in the Site-Map bellow.
   * Projects
 * 404 Error Page
 * Language Choosing Page
+* Blog Home Page
+  * Blog Topics Library
 
 
 ### Running & Bug Finding
-If you want to run the website to test for bugs or just mess around, all you have to do is download it and open the HTML files with your prefered browser. To run the PHP code you will need to install PHP, to do so head over to https://php.net and download the package for your OS.
+If you want to run the website to test for bugs or just mess around, all you have to do is download it and open the HTML files with your prefered browser.
 
 If you want to look at the language choice page, make sure do remove the onLoad="redirect()" tag on the body section. Please be warned that if you run this page without disabling this you will be re-directed to the live website.
 
