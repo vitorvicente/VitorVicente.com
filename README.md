@@ -40,6 +40,12 @@ It's made up of several pages/sections which are listed in the Site-Map bellow.
 * Language Choosing Page
 * Blog Home Page
   * Blog Topics Library
+    * Gaming
+	* Shows
+	* Movies
+	* Misc
+  * Posts
+  * Archive
 
 
 ### Running & Bug Finding
